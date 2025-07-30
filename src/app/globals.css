@@ -4,6 +4,18 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Utilities */
+  --black: #333;
+  --lightBlack: #1A1A1A;
+  --darkBlack: #121212;
+  --abyssBlack: #000;
+  --darkGray: #666;
+  --mediumGray: #ccc;
+  --lightGray: #f7f7f7;
+  --borderGray: #e0e0e0;
+  --backgroundGray: #ecebeb;
+  --white: #ffffff;
 }
 
 @theme inline {
@@ -21,7 +33,22 @@
 }
 
 body {
-  background: var(--background);
+  background: var(--abyssBlack);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  li {
+    transition: all 0.3s ease-in-out;
+  }
+
+  li:hover {
+    text-shadow: 0 6px 5px var(--darkBlack);
+  }
+}
+
+main {
+  position: relative;
+  z-index: 1;
 }

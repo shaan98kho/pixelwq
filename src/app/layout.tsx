@@ -1,6 +1,4 @@
 import "./globals.css"
-import Header from "@/components/Header";
-
 
 export default function RootLayout({
 	children,
@@ -8,9 +6,8 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">
+		<html lang="en" className="scroll-smooth">
 			<body>
-				<Header />
 				{children}
 			</body>
 		</html>
