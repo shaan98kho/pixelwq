@@ -1,4 +1,5 @@
 import "./globals.css"
+import Header from "@/components/Header"
 
 export default function RootLayout({
 	children,
@@ -8,7 +9,10 @@ export default function RootLayout({
 	return (
 		<html lang="en" className="scroll-smooth">
 			<body>
-				{children}
+				<Header/>
+				<main className="px-8 pt-22">
+					{children}
+				</main>
 			</body>
 		</html>
 	);

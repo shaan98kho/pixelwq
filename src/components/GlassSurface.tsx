@@ -301,7 +301,7 @@ const GlassSurface: React.FC<GlassSurfaceProps> = ({
   };
 
   const glassSurfaceClasses =
-    "relative flex items-center justify-center overflow-hidden transition-opacity duration-[260ms] ease-out";
+    "flex items-center justify-center overflow-hidden transition-opacity duration-[260ms] ease-out";
 
   const focusVisibleClasses = isDarkMode
     ? "focus-visible:outline-2 focus-visible:outline-[#0A84FF] focus-visible:outline-offset-2"

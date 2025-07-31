@@ -1,16 +1,15 @@
 "use client"
 import dynamic from "next/dynamic"
-import { Section } from "@/app/page"
+import Link from "next/link"
+import { usePathname, useRouter } from "next/navigation"
 
 const GlassSurface = dynamic(() => import("@/components/GlassSurface"), { ssr: false });
 const Aurora = dynamic(() => import("@/components/Aurora"), { ssr: false });
 
-interface HeaderProps {
-    toggleSection: (sxn: Section) => void
-}
+export default function Header() {
+    const path = usePathname()
 
-export default function Header({toggleSection}: HeaderProps) {
-    return <header className="p-4">
+    return <header>
         <Aurora
         colorStops={["#7cff67", "#b19eef", "#5227ff"]}
         blend={0.5}
@@ -18,7 +17,7 @@ export default function Header({toggleSection}: HeaderProps) {
         speed={0.5}
         />
         <GlassSurface
-        width={'100%'}
+        width={'unset'}
         height={50}
         borderRadius={30}
         borderWidth={0.07}
@@ -31,12 +30,13 @@ export default function Header({toggleSection}: HeaderProps) {
         blueOffset={20}
         brightness={50}
         opacity={0.93}
+        className='fixed z-[2] right-3 left-3 top-4'
         >
             <ul className="flex gap-8">
-                <li className="cursor-pointer" onClick={() => toggleSection('home')}>Home</li>
-                <li className="cursor-pointer" onClick={() => toggleSection('about')}>About</li>
-                <li className="cursor-pointer" onClick={() => toggleSection('projects')}>Projects</li>
-                <li className="cursor-pointer" onClick={() => toggleSection('contact')}>Contact Me</li>
+                <Link href="/"><li className={`cursor-pointer ${path === '/' ? "active" : ""}`}>Home</li></Link>
+                <Link href="/about"><li className={`cursor-pointer ${path === '/about' ? "active" : ""}`}>About</li></Link>
+                <Link href="projects"><li className={`cursor-pointer ${path === '/projects' ? "active" : ""}`}>Projects</li></Link>
+                <Link href="contact"><li className={`cursor-pointer ${path === '/contact' ? "active" : ""}`}>Contact Me</li></Link>
             </ul>
         </GlassSurface>
     </header>

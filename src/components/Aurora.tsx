@@ -211,5 +211,5 @@ export default function Aurora(props: AuroraProps) {
     };
   }, [amplitude]);
 
-  return <div ref={ctnDom} className="w-full h-full absolute left-0 top-0 right-0" />;
+  return <div ref={ctnDom} className="w-full h-full fixed left-0 top-0 right-0" />;
 }
