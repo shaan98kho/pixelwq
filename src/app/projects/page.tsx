@@ -11,7 +11,7 @@ export default function Projects() {
         <div className="projects-wrap pt-4 flex flex-wrap align-center gap-6">
             <a target="_blank" href="https://herobite.vercel.app/">
                 <TiltedCard
-                    imageSrc="../../../../herobiteSS.png"
+                    imageSrc="../../../../herobiteSs.png"
                     altText="HeroBite"
                     captionText="HeroBite live site"
                     containerHeight="200px"
