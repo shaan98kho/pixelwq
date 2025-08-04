@@ -6,6 +6,11 @@
   --background: #ffffff;
   --foreground: #171717;
 
+  /* Primary colours */
+  --green: #7cff67;
+  --lavender: #b19eef;
+  --indigo: #5227ff;
+
   /* Utilities */
   --black: #333;
   --lightBlack: #1A1A1A;
@@ -55,26 +60,18 @@ main {
   z-index: 1;
 }
 
-/* .variable-proximity {
-  font-family: "Roboto Flex", sans-serif;
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-} */
-
 .variable-proximity-demo {
   cursor: default;
   text-align: center;
   max-width: 20ch;
   line-height: 100%;
-  /* font-size: 4rem; */
+}
+
+.tilted-card-demo-text {
+  color: var(--white);
+  margin: 8px;
+  padding: 8px;
+  border-radius: 15px;
+  font-weight: 700;
+  background-color: rgba(0,0,0, 0.5);
 }
