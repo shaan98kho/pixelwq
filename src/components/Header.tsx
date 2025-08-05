@@ -32,7 +32,7 @@ export default function Header() {
         opacity={0.93}
         className='fixed z-[2] right-3 left-3 top-4'
         >
-            <ul className="flex gap-8">
+            <ul className="flex gap-8 font-bold text-center">
                 <Link href="/"><li className={`cursor-pointer ${path === '/' ? "active" : ""}`}>Home</li></Link>
                 <Link href="/about"><li className={`cursor-pointer ${path === '/about' ? "active" : ""}`}>About</li></Link>
                 <Link href="projects"><li className={`cursor-pointer ${path === '/projects' ? "active" : ""}`}>Projects</li></Link>

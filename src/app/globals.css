@@ -61,17 +61,35 @@ main {
 }
 
 .variable-proximity-demo {
-  cursor: default;
   text-align: center;
   max-width: 20ch;
   line-height: 100%;
 }
 
+.projects-wrap {
+
+}
+
 .tilted-card-demo-text {
   color: var(--white);
   margin: 8px;
-  padding: 8px;
+  padding: 10px;
   border-radius: 15px;
   font-weight: 700;
-  background-color: rgba(0,0,0, 0.5);
+  background-color: rgba(0,0,0, 0.8);
+}
+
+.tilted-card-caption {
+  background-color: rgba(0,0,0, 0.8);
+  color: var(--white);
+}
+
+@media only screen and (max-width: 940px) {
+  header ul {
+    font-size: 10px;
+  }
+
+  .projects-wrap {
+    justify-content: center;
+  }
 }
