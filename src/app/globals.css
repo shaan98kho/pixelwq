@@ -84,6 +84,19 @@ main {
   color: var(--white);
 }
 
+.form input,
+.form textarea {
+  outline: none;
+  border-bottom: 1px solid var(--backgroundGray);
+}
+
+
+@media only screen and (max-width: 730px) {
+  header ul {
+    font-size: 10px;
+  }
+}
+
 @media only screen and (max-width: 940px) {
   header ul {
     font-size: 10px;
