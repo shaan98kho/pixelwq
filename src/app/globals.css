@@ -84,12 +84,19 @@ main {
   color: var(--white);
 }
 
-.form input,
-.form textarea {
-  outline: none;
-  border-bottom: 1px solid var(--backgroundGray);
-}
+.form {
+  input,
+  textarea {
+    outline: none;
+    border-bottom: 1px solid var(--backgroundGray);
+  }
 
+  button {
+    outline: none;
+    border: none;
+    z-index: 51;
+  }
+}
 
 @media only screen and (max-width: 730px) {
   header ul {

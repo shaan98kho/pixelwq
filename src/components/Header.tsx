@@ -1,7 +1,7 @@
 "use client"
 import dynamic from "next/dynamic"
 import Link from "next/link"
-import { usePathname, useRouter } from "next/navigation"
+import { usePathname } from "next/navigation"
 
 const GlassSurface = dynamic(() => import("@/components/GlassSurface"), { ssr: false });
 const Aurora = dynamic(() => import("@/components/Aurora"), { ssr: false });

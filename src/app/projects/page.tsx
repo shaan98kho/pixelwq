@@ -2,7 +2,6 @@
 
 import dynamic from "next/dynamic"
 import { useRef } from "react"
-import Link from "next/link"
 const TiltedCard = dynamic(() => import("@/components/TiltedCard"), { ssr: false });
 const VariableProximity = dynamic(() => import("@/components/VariableProximity"), { ssr: false });
 
