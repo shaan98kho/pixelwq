@@ -66,10 +66,6 @@ main {
   line-height: 100%;
 }
 
-.projects-wrap {
-
-}
-
 .tilted-card-demo-text {
   color: var(--white);
   margin: 8px;
@@ -97,6 +93,22 @@ main {
     z-index: 51;
   }
 }
+
+.card-metadata span {
+  position: relative
+}
+
+.card-metadata span:has(+ span)::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  top: 50%;
+  right: -7px;
+  background-color: var(--borderGray);
+}
+
 
 @media only screen and (max-width: 730px) {
   header ul {

@@ -38,7 +38,7 @@ export default function About() {
 				/>
 			</div>
         <p className='text-center text-sm inline'>while optimizing performance, accessibility, and clean architecture along the way. With a background in UI development and 1 year of hands-on experience translating Figma designs into scalable interfaces (HTML, SCSS, JavaScript & jQuery), I thrive on collaborating across disciplines and continuously strengthening my core JavaScript fundamentals.</p>
-        <div className='flex flex-col align-center justify-center pt-4 font-bold'>
+        <div className='flex flex-col items-center justify-center pt-4 font-bold'>
             <h2 className='text-lg pb-4'>Tech Stack</h2>
             <h4 className='text-lg pb-2'>Front End:</h4>
             <div className="flex gap-2 pb-6 flex-wrap">
