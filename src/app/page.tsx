@@ -10,13 +10,13 @@ export default function Home() {
 	
 	return (
 		<div className="text-center text-sm">
-			<h1 className="">Hi, I'm Wen Qi 👋</h1>
-			<h2 className="">I'm a frontend dev from Malaysia</h2>
+			<h1 className="text-2xl">Hewwo, I'm Wen Qi</h1>
+			<h2 className="text-2xl">I'm a frontend dev from Malaysia who cares deeply about clean UI and thoughtful interactions.</h2>
 			<br/>
 			<ul className=" flex flex-col gap-2 pb-4">
-				<li>When I'm not coding you'll find me behind a drum kit 🥁 <br/>I picked it up a few months ago and I love how it keeps my mind sharp and my wrists strong.</li>
-				<li>I also do aerial yoga every week...balancing upside-down on a silk hammock has taught me to stay calm under pressure.</li>
-				<li>And I love to draw, my passion in art lies in human portraits! It forces me to slow down and see the world in new ways.</li> 
+				<li>When I'm not coding you'll probably find me behind a drum kit<br/>I picked it up a few months ago and I love how it keeps my mind sharp and my wrists strong.</li>
+				<li>I also do aerial yoga every week, balancing myself while being upside-down on a silk hammock has taught me to stay calm under pressure<br/>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</li>
+				<li>And I love to draw too! My passion in art lies in human portraits. This forces me to slow down and see the world in new ways.</li> 
 			</ul>
 			<p>Those three things:</p>
 			<div

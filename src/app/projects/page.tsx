@@ -5,6 +5,7 @@ import Card from "@/components/Card";
 export default function Projects() {
     
     return <div>
+        <p className="">These are the projects I built during my free time to stay sharp, explore modern stacks, and push beyond the legacy tech I use at work</p>
         <div className="projects-wrap pt-4 grid gap-6 grid-cols-[repeat(auto-fit,minmax(150px,1fr))] items-stretch">
             <Card 
                 caption="Hero Bite - A Surplus Food Marketplace"
