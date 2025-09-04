@@ -17,6 +17,15 @@ export default function Projects() {
                 tooltipText="WIP"
             />
             <Card 
+                caption="MintGecko - Crypto Dashboard"
+                techChips={["React.js", "TypeScript", "Redux", "RESTful API", "React Router v7","Tailwind CSS"]}
+                imgSrc="../../../../mintGeckoss.jpg"
+                projName="MintGecko"
+                liveSite="https://mintgecko.vercel.app/"
+                githubRepo="https://github.com/shaan98kho/mintgecko"
+                tooltipText="WIP"
+            />
+            <Card 
                 caption="Nutritsy - Meal Planning Mobile App"
                 techChips={["Flutter", "Kotlin", "Firebase"]}
                 imgSrc="../../../../splash.png"

@@ -10,7 +10,7 @@ export default function Home() {
 	
 	return (
 		<div className="text-center text-sm">
-			<h1 className="text-2xl">Hewwo, I'm Wen Qi</h1>
+			<h1 className="text-2xl">Hi! I'm Wen Qi</h1>
 			<h2 className="text-2xl">I'm a frontend dev from Malaysia who cares deeply about clean UI and thoughtful interactions.</h2>
 			<br/>
 			<ul className=" flex flex-col gap-2 pb-4">
