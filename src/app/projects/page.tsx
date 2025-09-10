@@ -19,7 +19,7 @@ export default function Projects() {
             <Card 
                 caption="MintGecko - Crypto Dashboard"
                 techChips={["React.js", "TypeScript", "Redux", "RESTful API", "React Router v7","Tailwind CSS"]}
-                imgSrc="../../../../mintGeckoss.jpg"
+                imgSrc="../../../../mintgeckSS.png"
                 projName="MintGecko"
                 liveSite="https://mintgecko.vercel.app/"
                 githubRepo="https://github.com/shaan98kho/mintgecko"
